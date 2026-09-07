@@ -1,0 +1,119 @@
+# 🏋️ Forever Fit: The Future of AI Fitness
+
+![Forever Fit Banner](https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1470&auto=format&fit=crop)
+
+> **"Your Personal AI Trainer, Nutritionist, and Wellness Coach – All in One."**
+
+**Forever Fit** is not just another fitness app. It is a comprehensive, AI-powered ecosystem designed to transform your health journey. By leveraging cutting-edge computer vision and generative AI, we bring professional-grade coaching directly to your living room.
+
+---
+
+## 🚀 Why Forever Fit?
+
+In a world of generic workout plans and confusing diet advice, **Forever Fit** stands out by offering hyper-personalized guidance.
+
+*   **Real-Time Form Correction**: No more guessing if your squat is deep enough. Our AI watches your form and corrects you instantly.
+*   **Holistic Approach**: We don't just count reps. We track your nutrition, sleep, and mental well-being.
+*   **Smart & Adaptive**: The more you use it, the smarter it gets, tailoring plans to your evolving goals.
+
+---
+
+## ✨ Key Features
+
+### 🤖 AI-Powered Form Correction
+Powered by **MediaPipe**, our advanced computer vision system analyzes your movements in real-time.
+*   **Instant Feedback**: "Straighten your back!", "Lower your hips!"
+*   **Rep Counting**: Automatic and accurate.
+*   **Visual Guides**: On-screen skeleton overlay to help you visualize your posture.
+
+### 🥗 Smart Nutrition Assistant
+Forget boring calorie counters. Chat with our **AI Nutritionist** to get:
+*   Personalized meal plans based on your dietary preferences (Vegan, Keto, etc.).
+*   Instant recipe suggestions from ingredients you have at home.
+*   Macro-nutrient analysis and tracking.
+
+### 🧠 Mental Health Support
+Physical health is nothing without mental wellness.
+*   **Mood Tracking**: Log your daily emotional state.
+*   **AI Therapy Chat**: A safe space to vent and get mindfulness tips.
+*   **Stress Management**: Guided breathing and meditation exercises.
+
+### 📊 Comprehensive Analytics
+Visualize your progress with stunning, interactive charts.
+*   **Workout History**: Track your strength gains over time.
+*   **Health Metrics**: Monitor heart rate, sleep quality, and steps.
+*   **Streak System**: Stay motivated with daily activity streaks.
+
+---
+
+## 🛠️ Tech Stack
+
+Built with the latest technologies for performance and scalability:
+
+*   **Frontend**: [Streamlit](https://streamlit.io/) - For a beautiful, responsive, and interactive UI.
+*   **Computer Vision**: [MediaPipe](https://developers.google.com/mediapipe) - For state-of-the-art pose detection.
+*   **Backend**: Python - The powerhouse of AI and data processing.
+*   **Database**: MongoDB - For flexible and scalable data storage.
+*   **AI Models**: Integrated with advanced LLMs for natural language understanding.
+
+---
+
+## 🏁 Getting Started
+
+Ready to transform your life? Follow these simple steps to get started.
+
+### Prerequisites
+*   Python 3.10+ installed.
+*   A webcam for AI form correction.
+
+### Installation
+
+1.  **Clone the Repository**
+    ```bash
+    git clone https://github.com/Ayanmohd18/Forever-fit.git
+    cd Forever-fit
+    ```
+
+2.  **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Set Up Environment Variables**
+    Create a `.env` file in the root directory and add your keys:
+    ```env
+    MONGODB_CONNECTION_STRING=your_mongodb_connection_string
+    DEEPSEEK_API_KEY=your_deepseek_api_key
+    ```
+
+4.  **Run the Application**
+    ```bash
+    streamlit run main.py
+    ```
+
+5.  **Access the App**
+    Open your browser and navigate to `http://localhost:8501`.
+
+---
+
+## 🤝 Contributing
+
+We believe in the power of community. If you have ideas to make Forever Fit even better, feel free to fork the repo and submit a pull request!
+
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+<div align="center">
+  <p>Made with ❤️ by Ayan</p>
+</div>
